@@ -79,7 +79,23 @@ nav > ul {
 }
 
 .buttons > ul > li{
-    border: 2px solid black;
+    border: 1px solid #72afa6;
     display:flex;
     justify-content:center;
+    font-weight: 700;
+    border-radius: 27.5px;
+    color:#72afa6; 
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 15px 30px;
 }
+.buttons > ul > li:hover{
+background-color:#72afa6; 
+color:white;
+}
+a:hover{
+    color:white;
+}
+/* nog even aanpassen dat de a goed werkt met wat ik met list had gemaakt */
+/* button kleur is niet accessible */
