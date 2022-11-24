@@ -250,14 +250,14 @@ nav ul li:nth-child(9){
 /* welkomstbericht */
 #desktopwelkom{
     display:flex;
-    margin-top: 150px;
+    margin-top: 180px;
 }
-h1 {
+/* h1 {
     font-family: Montserrat;
     font-size: 2.3em;
     font-weight: 700;
     color: var(--lichtblauw);
-}
+} */
 .welkomstbericht{
     position:relative;
     margin-top: 0px;
@@ -266,13 +266,13 @@ h1 {
 }
 
 /* notificatieblok */
-h2{
+/* h2{
     font-family: Montserrat;
     font-size: 1.4em;
     font-weight: 600;
     color: var(--donkerblauw);
-}
-li{
+} */
+/* li{
     font-family: Montserrat;
     font-size: 1em;
     font-weight: 400;
@@ -281,7 +281,7 @@ li{
 }
 main{
     margin: 20px;
-}
+} */
 .notificatie{
     width: 50%;
     height: 200px;
@@ -294,8 +294,91 @@ main{
     row-gap: 35px
 }
 
-.notificatie > h2{
+/* .notificatie > h2{
     margin-top:30px;
     margin-left: 15px;
+} */
+
+
+
+/* buttons/links */
+
+/* h3{
+    color: var(--lichtblauw);
+ }
+ .flexy{
+     text-align:center;
+ }
+ .beschrijving{
+     max-width: 238px;
+     margin:auto;
+     
+ } */
+ .buttons{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ /* .buttons > ul{
+     list-style: none;
+     margin-left:-40px;
+     margin-top:10px;
+     
+     
+ } */
+ /* .imginfo{
+     width:42px;
+ }
+ .buttons > ul > li{
+     margin-top:15px;
+     margin-bottom:15px;
+ } */
+ /* de woorden in strong moeten linkjes worden */
+ /* strong{
+     color: var(--lichtblauw);
+ }
+ .infoknop{
+     border: 1px solid #72afa6;
+     display:flex;
+     justify-content:center;
+     font-weight: 700;
+     border-radius: 27.5px;
+     color:var(--lichtblauw);
+     letter-spacing: 2px;
+     font-size: 12px;
+     line-height: 22px;
+     padding: 15px 30px;
+ } */
+ /* .flexy > a{
+     display:flex;
+     justify-content:center;
+     margin-bottom:60px;  
+ }
+ .buttons > ul > a > li:hover{
+ background-color:var(--lichtblauw);
+ color:white;
+ }
+ a{
+     color:var(--lichtblauw);
+     text-decoration: none;
+ } */
+
+ /* footer */
+
+#footerflex{
+    display: flex;
 }
+/* h4{
+    color: var(--lichtblauw);
+} */
+/* #certifiedB{
+    padding:30px 30px;
+}
+.footerul{
+    list-style: none;
+    padding: 30px;
+}
+footer > p{
+    padding: 30px;  
+} */
 }
