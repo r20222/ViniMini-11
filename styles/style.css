@@ -55,13 +55,31 @@ nav > ul {
 }
 
 /* welkomstbericht */
+h1 {
+    font-family: Montserrat;
+    font-size: 2.3em;
+    font-weight: 700;
+    color: #72AFA6;
+}
 .welkomstbericht{
     position:relative;
     margin-top: 150px;
 }
 
 /* notificatieblok */
-
+h2{
+    font-family: Montserrat;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #152a42;
+}
+li{
+    font-family: Montserrat;
+    font-size: 1em;
+    font-weight: 400;
+    color: #152a42;
+    line-height: 1.4em;
+}
 .notificatie{
     width: 100%;
     height: 200px;
@@ -79,13 +97,38 @@ nav > ul {
 
 /* buttons/links */
 
+h3{
+   color: #72AFA6;
+}
+.flexy{
+    text-align:center;
+}
+.beschrijving{
+    border:1px solid black;
+    max-width: 238px;
+    margin:auto;
+    
+}
 .buttons > ul{
     list-style: none;
     margin-left:-40px;
     margin-top:10px;
+    
 }
-
-
+.imginfo{
+    width:42px;
+}
+.buttons > ul > li{
+    margin-top:15px;
+    margin-bottom:15px;
+    /* display:flex;
+    flex-direction:column;
+    justify-content:center; */
+}
+/* de woorden in strong moeten linkjes worden */
+strong{
+    color: #72AFA6;
+}
 .infoknop{
     border: 1px solid #72afa6;
     display:flex;
@@ -106,5 +149,5 @@ a{
     color:#72afa6;
     text-decoration: none;
 }
-/* nog even aanpassen dat de a goed werkt met wat ik met list had gemaakt */
+
 /* button kleur is niet accessible */
