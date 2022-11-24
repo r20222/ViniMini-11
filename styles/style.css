@@ -28,22 +28,22 @@ nav {
 }
 
 /* Navigatie */
-ul li:nth-child(4){
+nav ul li:nth-child(4){
     display:none;
 }
-ul li:nth-child(5){
+nav ul li:nth-child(5){
     display:none;
 }
-ul li:nth-child(6){
+nav ul li:nth-child(6){
     display:none;
 }
-ul li:nth-child(7){
+nav ul li:nth-child(7){
     display:none;
 }
-ul li:nth-child(8){
+nav ul li:nth-child(8){
     display:none;
 }
-ul li:nth-child(9){
+nav ul li:nth-child(9){
     display:none;
 }
 nav > ul {
@@ -150,3 +150,19 @@ a{
 }
 
 /* button kleur is niet accessible */
+
+/* footer */
+
+h4{
+    color: #72AFA6;
+}
+#certifiedB{
+    padding:30px 30px;
+}
+.footerul{
+    list-style: none;
+    padding: 30px;
+}
+footer > p{
+    padding: 30px;
+}
